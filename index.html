@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Nafay Saggu — Portfolio</title>
+  <meta name="description" content="Abdul Nafay Saggu — student learning web development. HTML, CSS, Python. Building projects like SportZone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a href="#top" class="brand">
+        <span class="brand-mark">ANS</span>
+        <span class="brand-name">Abdul Nafay<span class="dim">.dev</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://github.com/abdulnafaysaggu" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner container">
+      <p class="prompt-line"><span class="prompt-sign">&gt;</span> whoami<span class="cursor">_</span></p>
+
+      <h1 class="hero-name">Abdul Nafay Saggu</h1>
+      <p class="hero-role">Student, learning web development</p>
+
+      <p class="hero-bio">
+        I'm a student learning to build things for the web — right now that means getting hands-on
+        with HTML, CSS, and Python. I like understanding how a page comes together piece by piece,
+        and I learn best by building real projects rather than just reading about them.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="https://github.com/abdulnafaysaggu" target="_blank" rel="noopener" class="btn btn-outline">GitHub Profile</a>
+      </div>
+
+      <div class="hero-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">Python</span>
+        <span class="tag tag-muted">Learning every day</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-copy">
+        <p class="section-label">01 — About</p>
+        <h2>Still early, still building.</h2>
+        <p>
+          I'm at the start of my web development journey. I'm comfortable writing structured HTML
+          and styling it with CSS, and I've been picking up Python alongside that to understand
+          programming fundamentals more broadly.
+        </p>
+        <p>
+          I don't claim to know it all yet — and I'm not trying to. What I care about is building
+          real things, breaking them, fixing them, and getting a little better with every project.
+          <span class="site-link">SportZone</span> below is the clearest example of that so far.
+        </p>
+      </div>
+
+      <div class="about-panel">
+        <div class="panel-row">
+          <span class="panel-key">status</span>
+          <span class="panel-value">student</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-key">focus</span>
+          <span class="panel-value">web development</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-key">stack</span>
+          <span class="panel-value">HTML · CSS · Python</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-key">github</span>
+          <span class="panel-value">@abdulnafaysaggu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <p class="section-label">02 — Skills</p>
+      <h2>What I'm working with</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon">&lt;/&gt;</span>
+          <h3>HTML</h3>
+          <p>Structuring pages with clean, semantic markup — the foundation everything else sits on.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">{ }</span>
+          <h3>CSS</h3>
+          <p>Styling and layout — spacing, color, responsive design, and making things look intentional.</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">&gt;_</span>
+          <h3>Python</h3>
+          <p>Learning programming fundamentals — logic, data structures, and problem solving.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <p class="section-label">03 — Projects</p>
+      <h2>Things I've built</h2>
+
+      <div class="project-card">
+        <div class="project-media" aria-hidden="true">
+          <span class="project-emoji">🏆</span>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Featured project</span>
+          <h3>SportZone</h3>
+          <p>
+            A sports equipment e-commerce site built from scratch with HTML, CSS, and JavaScript.
+            It has category and search filtering, a shopping cart with quantity controls that
+            persists using localStorage, a product details view, and a full checkout flow with
+            form validation — all without any frameworks.
+          </p>
+          <ul class="project-stack">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://abdulnafaysaggu.github.io/SportsZone/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo</a>
+            <a href="https://github.com/abdulnafaysaggu/SportsZone" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-more">
+        <p>More projects are on the way as I keep learning — check back soon, or follow along on GitHub.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <p class="prompt-line"><span class="prompt-sign">&gt;</span> get_in_touch<span class="cursor">_</span></p>
+      <h2>Let's connect</h2>
+      <p>
+        I'm always open to feedback on my projects, or just connecting with other people learning
+        to build. The best place to find me is GitHub.
+      </p>
+      <a href="https://github.com/abdulnafaysaggu" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+        Visit my GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="year"></span> Abdul Nafay Saggu</span>
+      <a href="https://github.com/abdulnafaysaggu" target="_blank" rel="noopener">github.com/abdulnafaysaggu</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
